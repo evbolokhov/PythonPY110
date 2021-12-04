@@ -14,13 +14,13 @@ files:
   visible: true
   placeholders:
   - offset: 144
-    length: 66
+    length: 115
     placeholder_text: '...)  # TODO записать регулярное выражение с именованными группами'
     initial_state:
       length: 66
       offset: 144
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: r"(?P<day>\d\d)-(?P<mounth>\d\d)-(?P<year>\d\d\d\d)")
   text: |

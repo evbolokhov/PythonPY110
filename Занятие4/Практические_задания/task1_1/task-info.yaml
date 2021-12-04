@@ -14,8 +14,8 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 229
-    length: 71
+  - offset: 231
+    length: 74
     placeholder_text: '...)  # TODO записать регулярное выражение для поиска слова
       любой длины'
     initial_state:
@@ -23,18 +23,18 @@ files:
       offset: 229
     initialized_from_dependency: false
     selected: true
-    status: Unchecked
+    status: Failed
     encrypted_possible_answer: r"\w+")
-  - offset: 355
-    length: 64
+  - offset: 512
+    length: 85
     placeholder_text: ')  # TODO вызвать от регулярного выражения методы search и
       group'
     initial_state:
       length: 64
       offset: 355
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Failed
     encrypted_possible_answer: .search(word).group())
   text: |
     import re
@@ -63,5 +63,24 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Failed
+feedback:
+  message: Incorrect
+  time: Sat, 04 Dec 2021 11:19:59 UTC
+  expected: |
+    sdfsdf
+    Ddfsdf
+    sdfsdf
+    123_sdfsdf
+    123sdfsdf
+    s
+    123
+  actual: |
+    <re.Match object; span=(4, 10), match='sdfsdf'>
+    <re.Match object; span=(0, 6), match='Ddfsdf'>
+    <re.Match object; span=(5, 11), match='sdfsdf'>
+    <re.Match object; span=(0, 10), match='123_sdfsdf'>
+    <re.Match object; span=(0, 9), match='123sdfsdf'>
+    <re.Match object; span=(2, 3), match='s'>
+    <re.Match object; span=(0, 3), match='123'>
 record: -1
