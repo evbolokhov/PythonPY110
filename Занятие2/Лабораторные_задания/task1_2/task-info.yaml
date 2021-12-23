@@ -9,7 +9,7 @@ files:
   visible: true
   placeholders:
   - offset: 46
-    length: 71
+    length: 97
     placeholder_text: '...  # TODO записать выражение-генератор для возведения чисел
       в квадрат'
     initial_state:
@@ -17,7 +17,7 @@ files:
       offset: 46
     initialized_from_dependency: false
     selected: true
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: (num ** 2 for num in numbers)
   text: |
     def task(numbers: list) -> int:
@@ -32,5 +32,8 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Thu, 23 Dec 2021 20:06:25 UTC
 record: -1
