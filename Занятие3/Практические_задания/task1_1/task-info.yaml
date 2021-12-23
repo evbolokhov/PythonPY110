@@ -22,7 +22,7 @@ files:
   visible: true
   placeholders:
   - offset: 252
-    length: 77
+    length: 4
     placeholder_text: '# TODO c помощью метода строки strip очистить строку от непечатыемых
       символов'
     initial_state:

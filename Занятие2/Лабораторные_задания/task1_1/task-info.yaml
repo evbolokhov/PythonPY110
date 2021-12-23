@@ -15,7 +15,7 @@ files:
       length: 41
       offset: 153
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: len(word) for word in list_words)
   text: |

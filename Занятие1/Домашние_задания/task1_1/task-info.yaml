@@ -13,5 +13,10 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Failed
+feedback:
+  message: Incorrect
+  time: Thu, 23 Dec 2021 19:40:51 UTC
+  actual: |
+    [(0, 19), (1, 5), (2, 5), (3, 6), (4, 2), (5, 11), (6, 5), (7, 32), (8, 25), (9, 1)]
 record: -1
